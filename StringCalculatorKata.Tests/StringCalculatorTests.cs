@@ -84,5 +84,7 @@ namespace StringCalculatorKata.Tests
             var negativesNotAllowedException = Assert.Throws<NegativesNotAllowedException>(actualResult);
             Assert.That(negativesNotAllowedException.Message, Is.EqualTo(exceptionMessage));
         }
+
+        // TODO: Dopisz kolejne testy
     }
 }
